@@ -28,6 +28,7 @@ img {
     /* adjusts when in a 125% dpi screen */
     zoom: 80%;
     display: flex;
+    /* justify-content: space-between; */
 }
 
 .start-button {
@@ -61,6 +62,7 @@ img {
     width: 360px;
     border: #808080 solid 1px;
     padding: 2px;
+    margin-right: 4px;
 }
 
 .search-container:hover {
@@ -98,10 +100,10 @@ img {
     background: none;
     border: none;
     transition: .1s;
-    padding: 0 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 61px;
 }
 
 .application-button:hover {
@@ -113,5 +115,5 @@ img {
 }
 
 .application-icon {
-    width: 28px;
+    height: 30px;
 }
